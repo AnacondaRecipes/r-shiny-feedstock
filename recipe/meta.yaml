@@ -10,8 +10,8 @@ package:
 source:
   fn: shiny_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/shiny_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/shiny_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/shiny/shiny_{{ version }}.tar.gz
   sha256: 20e25f3f72f3608a2151663f7836f2e0c6da32683a555d7541063ae7a935fa42
 
 
